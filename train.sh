@@ -1,0 +1,37 @@
+
+CUDA_VISIBLE_DEVICES=0,1,2,3 \
+swift sft \
+    --model your_path_model \
+    --dataset your_path_train_dataset.jsonl \
+    --val_dataset your_path_val/test_dataset.jsonl \
+    --acc_strategy seq \
+    --system fakesv.txt \
+    --device_map mapmoe.json \
+    --train_type lora \
+    --torch_dtype bfloat16 \
+    --attn_impl flash_attn \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 4 \
+    --split_dataset_ratio 0.0 \
+    --per_device_eval_batch_size 1 \
+    --learning_rate 8e-5 \
+    --lora_rank 8 \
+    --lora_alpha 32 \
+    --target_modules all-linear \
+    --freeze_vit true \
+    --freeze_aligner true \
+    --gradient_accumulation_steps 2 \
+    --save_strategy epoch \
+    --eval_strategy epoch \
+    --eval_steps 1 \
+    --save_steps 1 \
+    --save_total_limit 5 \
+    --logging_steps 10 \
+    --max_length 8192 \
+    --modules_to_save model.switchTransformer_coarse_grained model.switchTransformer_fine_grained classifier attn_score \
+    --output_dir your_path \
+    --warmup_ratio 0.1 \
+    --data_seed 2025 \
+    --seed 2025 \
+    --temperature 0 \
+    --dataloader_num_workers 4 \
