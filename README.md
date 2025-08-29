@@ -1,4 +1,7 @@
 
+
+Some parts in the README may not be very detailed. I’ll create a simpler and easier-to-understand version after I finish my current work. About 1 month.
+
 ## 📦 Dataset Preparation
 
 Due to copyright reasons, we are unable to provide the original datasets.  
