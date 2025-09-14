@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ## 🛠️ 3. Other Preparation
 
-### 🔧 3.1. Install `ms-swift` (v3.2.0)
+### 3.1. Install `ms-swift` (v3.2.0)
 
 Please install the `ms-swift` library with the specific version:
 
@@ -80,7 +80,7 @@ After installation, replace the following file with our customized version:
 [ms-swift-root]/llm/template/internvl.py → replace with utils/internvl.py
 ```
 
-### 📥 3.2. Download InternVL2.5
+### 3.2. Download InternVL2.5
 
 Download the **InternVL2.5** model from the [official repository](https://github.com/OpenGVLab/InternVL).  
 Then, replace the model definition file:
@@ -91,17 +91,17 @@ Then, replace the model definition file:
 
 ---
 
-## ✅ Running
+## ✅ 4. Running
 
 After environment and data are ready, you can start training or inference as follows:
 
-### 🔧 Train
+### 4.1 Train
 
 ```bash
 bash train.sh
 ```
 
-### 🔍 Inference
+### 4.2. Inference
 
 ```bash
 bash inference.sh
@@ -111,13 +111,13 @@ bash inference.sh
 
 ---
 
-## 🙏 Acknowledgements
+## 🙏 5. Acknowledgements
 
 - We sincerely thank the developers of the [**ms-swift**](https://github.com/modelscope/ms-swift) framework, which provides a powerful and modular infrastructure for large-scale multimodal experiments.
 - We also gratefully acknowledge the [**InternVL**](https://github.com/OpenGVLab/InternVL) team for their release of the **InternVL2.5** model, which serves as the backbone of our visual-language encoding.
 
 ---
 
-## 📬 Contact
+## 📬 6. Contact
 
 If you have any questions or encounter any issues, feel free to open an issue or contact me directly.
