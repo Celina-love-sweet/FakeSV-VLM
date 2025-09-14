@@ -96,13 +96,17 @@ Download the **InternVL2.5** model from the [official repository](https://github
 
 After environment and data are ready, you can start training or inference as follows:
 
-### 4.1. Train
+### 4.1. Changes to be made in train.sh
+
+### 4.2. Train
 
 ```bash
 bash train.sh
 ```
 
-### 4.2. Inference
+### 4.3. Changes to be made in ference.sh
+
+### 4.4. Inference
 
 ```bash
 bash inference.sh
