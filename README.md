@@ -136,7 +136,7 @@ FakeSV_VLM/
 ├── inference.sh
 ├── fakesv.txt
 ├── fakett.txt
-├── mapmoe.json                   
+├── mapmoe.json      # Specifies the placement of different layers on the GPUs. If you change the number of GPUs, you will need to modify this file.             
 ├── requirements.txt                                      
 ```
 
