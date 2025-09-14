@@ -4,8 +4,7 @@ Some parts in the README may not be very detailed. I’ll create a simpler and e
 
 ## 📦 1. Dataset Preparation
 
-Due to copyright reasons, we are unable to provide the original datasets.  
-You can download them from the following links:
+Due to copyright reasons, we are unable to provide the original datasets. You can download them from the following links:
 
 ### 1.1 FakeSV
 
