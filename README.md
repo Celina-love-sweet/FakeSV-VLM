@@ -6,19 +6,19 @@ Some parts in the README may not be very detailed. I’ll create a simpler and e
 
 Due to copyright reasons, we are unable to provide the original datasets. You can download them from the following links:
 
-### 1.1 FakeSV
+### 1.1. FakeSV
 
 - **Description**: A multimodal benchmark for fake news detection on short video platforms.
 - **Access**: [ICTMCG/FakeSV](https://github.com/ICTMCG/FakeSV)  
   📄 *FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms*, AAAI 2023.
 
-### 1.2 FakeTT
+### 1.2. FakeTT
 
 - **Description**: A dataset for fake news detection from the perspective of creative manipulation.
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
 
-### 1.3 JSONL data processing
+### 1.3. JSONL data processing
 After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. 
 
 An example is as follows: we assume that the storage path of one video is `FakeSV_VLM/FakeTT/video`. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file:
@@ -43,18 +43,18 @@ An example is as follows: we assume that the storage path of one video is `FakeS
 
 ---
 
-## ⚙️ Environment Setup
+## ⚙️ 2. Environment Setup
 
 We recommend using a Python virtual environment to avoid conflicts.
 
-### 1. Create and activate a virtual environment (e.g., with conda):
+### 2.1. Create and activate a virtual environment (e.g., with conda):
 
 ```bash
 conda create -n fakesv-vlm python=3.11.8 -y
 conda activate fakesv-vlm
 ```
 
-### 2. Install Python dependencies:
+### 2.2. Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -64,9 +64,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Other Preparation
+## 🛠️ 3. Other Preparation
 
-### 🔧 Install `ms-swift` (v3.2.0)
+### 🔧 3.1. Install `ms-swift` (v3.2.0)
 
 Please install the `ms-swift` library with the specific version:
 
@@ -80,7 +80,7 @@ After installation, replace the following file with our customized version:
 [ms-swift-root]/llm/template/internvl.py → replace with utils/internvl.py
 ```
 
-### 📥 Download InternVL2.5
+### 📥 3.2. Download InternVL2.5
 
 Download the **InternVL2.5** model from the [official repository](https://github.com/OpenGVLab/InternVL).  
 Then, replace the model definition file:
