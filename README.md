@@ -2,7 +2,7 @@
 
 Some parts in the README may not be very detailed. I’ll create a simpler and easier-to-understand version after I finish my current work. About 1 month.
 
-## 📦 Dataset Preparation
+## 📦 1. Dataset Preparation
 
 Due to copyright reasons, we are unable to provide the original datasets.  
 You can download them from the following links:
@@ -19,7 +19,29 @@ You can download them from the following links:
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
 
-After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions.
+After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. An example is as follows: we assume that the storage path of one video is FakeVLM/FakeTT/video. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file: 
+
+After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. 
+
+An example is as follows: we assume that the storage path of one video is `FakeVLM/FakeTT/video`. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file:
+
+```json
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Given the news video description, news event and key frames, you need to predict the authenticity of the news video. If the video is more likely to be fake news, return fake; otherwise, return real. Please avoid providing ambiguous evaluations such as undetermined. News video description: Jimmy Fallon ripped off Donald Trump's toupee, News event: Trump toupee video, News video key frames: <video>, Your prediction (no need to give your analysis, return real or fake only):"
+    },
+    {
+      "role": "assistant",
+      "content": "fake"
+    }
+  ],
+  "videos": [
+    "FakeVLM/FakeTT/video/6687587479509273861.mp4"
+  ]
+}
+
 
 ---
 
