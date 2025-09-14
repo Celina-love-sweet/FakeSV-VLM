@@ -88,6 +88,8 @@ Download the **InternVL2.5** model from the [official repository](https://github
 [InternVL2.5-root]/modeling_internlm2.py → replace with our customized modeling_internlm2.py
 ```
 
+### 3.3. All file paths
+
 ---
 
 ## ✅ 4. Running
