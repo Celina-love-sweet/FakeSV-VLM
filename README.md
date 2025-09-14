@@ -86,7 +86,37 @@ Download the **InternVL2.5** model from the [official repository](https://github
 [InternVL2.5-root]/modeling_internlm2.py → replace with our customized modeling_internlm2.py
 ```
 
-### 3.3. All file paths
+### 3.3. Code Structure
+
+The overall structure of this project is organized as follows:
+
+```text
+FakeSV_VLM/
+
+├── FakeSV/
+│   ├── video/
+│   │   └── ..../
+├── FakeTT/       
+│   ├── video/
+│   │   └── ..../            
+├── InternVL2_5/                            
+│   ├── data/
+│   │   ├── fakesv_train.jsonl/        
+│   │   ├── fakesv_val.jsonl/           
+│   │   ├── fakesv_test.jsonl/        
+│   │   ├── fakett_train.jsonl/        
+│   │   ├── fakett_val.jsonl/           
+│   │   ├── fakett_test.jsonl/    
+│   ├── OpenGVlab/
+│   │   ├── InternVL2_5-8B/
+│   │   │   └── ..../     
+├── train.sh
+├── inference.sh
+├── fakesv.txt
+├── fakett.txt
+├── mapmoe.json                   
+├── requirements.txt                                      
+```
 
 ---
 
