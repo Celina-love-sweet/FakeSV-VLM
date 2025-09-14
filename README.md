@@ -101,12 +101,12 @@ FakeSV_VLM/
 │   │   └── ..../            
 ├── InternVL2_5/                            
 │   ├── data/
-│   │   ├── fakesv_train.jsonl/        
-│   │   ├── fakesv_val.jsonl/           
-│   │   ├── fakesv_test.jsonl/        
-│   │   ├── fakett_train.jsonl/        
-│   │   ├── fakett_val.jsonl/           
-│   │   ├── fakett_test.jsonl/    
+│   │   ├── fakesv_train.jsonl        
+│   │   ├── fakesv_val.jsonl           
+│   │   ├── fakesv_test.jsonl        
+│   │   ├── fakett_train.jsonl        
+│   │   ├── fakett_val.jsonl           
+│   │   ├── fakett_test.jsonl    
 │   ├── OpenGVlab/
 │   │   ├── InternVL2_5-8B/
 │   │   │   └── added_tokens.json       
