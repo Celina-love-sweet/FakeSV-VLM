@@ -7,23 +7,22 @@ Some parts in the README may not be very detailed. I’ll create a simpler and e
 Due to copyright reasons, we are unable to provide the original datasets.  
 You can download them from the following links:
 
-### FakeSV
+### 1.1 FakeSV
 
 - **Description**: A multimodal benchmark for fake news detection on short video platforms.
 - **Access**: [ICTMCG/FakeSV](https://github.com/ICTMCG/FakeSV)  
   📄 *FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms*, AAAI 2023.
 
-### FakeTT
+### 1.2 FakeTT
 
 - **Description**: A dataset for fake news detection from the perspective of creative manipulation.
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
 
-After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. An example is as follows: we assume that the storage path of one video is FakeVLM/FakeTT/video. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file: 
-
+### 1.3 
 After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. 
 
-An example is as follows: we assume that the storage path of one video is `FakeVLM/FakeTT/video`. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file:
+An example is as follows: we assume that the storage path of one video is `FakeSV_VLM/FakeTT/video`. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file:
 
 ```json
 {
@@ -38,7 +37,7 @@ An example is as follows: we assume that the storage path of one video is `FakeV
     }
   ],
   "videos": [
-    "FakeVLM/FakeTT/video/6687587479509273861.mp4"
+    "FakeSV_VLM/FakeTT/video/6687587479509273861.mp4"
   ]
 }
 ```
