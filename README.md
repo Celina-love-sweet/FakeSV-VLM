@@ -19,7 +19,7 @@ You can download them from the following links:
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
 
-### 1.3 
+### 1.3 JSONL data processing
 After downloading the datasets, please organize them according to the format described in the paper and required by the ms-swift framework. Please refer to the official manual for specific formatting and placement instructions. 
 
 An example is as follows: we assume that the storage path of one video is `FakeSV_VLM/FakeTT/video`. Based on the description and event in the original dataset, we can obtain the corresponding JSONL file:
