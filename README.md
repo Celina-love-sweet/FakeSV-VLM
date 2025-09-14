@@ -60,7 +60,7 @@ conda activate fakesv-vlm
 pip install -r requirements.txt
 ```
 
-> ⚠️ Make sure `torch`, `transformers`, and other dependencies are installed properly as specified.
+> ⚠️ Make sure `torch`, `transformers`, and `other dependencies` are installed properly as specified.
 
 ---
 
