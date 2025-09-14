@@ -109,7 +109,29 @@ FakeSV_VLM/
 │   │   ├── fakett_test.jsonl/    
 │   ├── OpenGVlab/
 │   │   ├── InternVL2_5-8B/
-│   │   │   └── ..../     
+│   │   │   └── added_tokens.json       
+│   │   │   └── config.json           
+│   │   │   └── configuration_internlm2.py
+│   │   │   └── configuration_internl_chat.py
+│   │   │   └── configuration_intern_vit.py
+│   │   │   └── conversation.py         
+│   │   │   └── eval_llm_benchmark.log 
+│   │   │   └── generation_config.json 
+│   │   │   └── model-00001-of-00004.safetensors 
+│   │   │   └── model-00002-of-00004.safetensors
+│   │   │   └── model-00003-of-00004.safetensors 
+│   │   │   └── model-00004-of-00004.safetensors 
+│   │   │   └── model.safetensors.index.json
+│   │   │   └── modeling_internlm2.py      # Files to be replaced
+│   │   │   └── modeling_internvl_chat.py
+│   │   │   └── modeling_intern_vit.py
+│   │   │   └── preprocessor_config.json
+│   │   │   └── README.md                
+│   │   │   └── special_tokens_map.md     
+│   │   │   └── tokenization_internlm2.py 
+│   │   │   └── tokenization_internlm2_fast.py 
+│   │   │   └── tokenizer.model           
+│   │   │   └── tokenizer_config.json   
 ├── train.sh
 ├── inference.sh
 ├── fakesv.txt
