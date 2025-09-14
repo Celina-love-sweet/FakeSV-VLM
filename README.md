@@ -156,6 +156,8 @@ bash train.sh
 
 ### 4.3. Changes to be made in inference.sh
 
+--model is the path to the model, fill it in according to your actual InternVL2_5-8B directory; --dataset is the location of the training set, based on the directory above, you can fill in InternVL2_5/data/fakesv_train.jsonl; similarly for val_dataset, fill in the test set or training set. You can start by using the test set and then compare the highest val set accuracy after 5 checkpoints; --output_dir is the path to save the model checkpoints, fill it in according to your needs.
+
 ### 4.4. Inference
 
 ```bash
