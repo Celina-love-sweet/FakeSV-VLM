@@ -1,6 +1,4 @@
-
-
-Some parts in the README may not be very detailed. I’ll create a simpler and easier-to-understand version after I finish my current work. About 1 month.
+# FakeSV-VLM: Taming VLM for Detecting Fake Short-Video News via Progressive Mixture-Of-Experts Adapter
 
 ## 📦 1. Dataset Preparation
 
