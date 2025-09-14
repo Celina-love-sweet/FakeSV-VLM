@@ -82,8 +82,7 @@ After installation, replace the following file with our customized version:
 
 ### 3.2. Download InternVL2.5
 
-Download the **InternVL2.5** model from the [official repository](https://github.com/OpenGVLab/InternVL).  
-Then, replace the model definition file:
+Download the **InternVL2.5** model from the [official repository](https://github.com/OpenGVLab/InternVL). Then, replace the model definition file:
 
 ```text
 [InternVL2.5-root]/modeling_internlm2.py → replace with our customized modeling_internlm2.py
