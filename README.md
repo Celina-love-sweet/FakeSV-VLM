@@ -158,6 +158,7 @@ bash train.sh
 
 ### 4.3. Changes to be made in inference.sh
 
+--adapter is the checkpoint from the previously specified --output_dir path; --dataset is the path to the previously used test set or val set; --result_path is the final prediction results of the model.
 
 ### 4.4. Inference
 
