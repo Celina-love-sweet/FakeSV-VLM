@@ -102,7 +102,7 @@ After environment and data are ready, you can start training or inference as fol
 bash train.sh
 ```
 
-### 4.3. Changes to be made in ference.sh
+### 4.3. Changes to be made in inference.sh
 
 ### 4.4. Inference
 
