@@ -48,7 +48,7 @@ We recommend using a Python virtual environment to avoid conflicts.
 ### 2.1. Create and activate a virtual environment (e.g., with conda):
 
 ```bash
-conda create -n fakesv-vlm python=3.11.8 -y
+conda create -n fakesv-vlm python=3.11.14 -y
 conda activate fakesv-vlm
 ```
 
